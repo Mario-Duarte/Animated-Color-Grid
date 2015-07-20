@@ -24,7 +24,7 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
     <meta charset="UTF-8">
     <title>Color Grid</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color-grid.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900">
 
     <style>
@@ -68,6 +68,6 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
-<script type="text/javascript" src="js/main.min.js"></script>
+<script type="text/javascript" src="js/color-grid.min.js"></script>
 </body>
 </html>
