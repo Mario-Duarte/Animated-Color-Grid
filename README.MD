@@ -29,7 +29,7 @@ Bellow is the basic html structure of the grid, for a dynamic working example ch
 <div id="color-grid" data-time-min="1" data-time-max="5">
 
         <div class="grid-item effect__fade" data-id="1">
-            <div class="inner">
+            <div class="inner"><!-- Very important div! This div keep the height to 100% of the width, 1:1 aspect ratio -->
 
                 <div class="grid-item-front" style="background-color: #446cb3;">
 
@@ -44,7 +44,18 @@ Bellow is the basic html structure of the grid, for a dynamic working example ch
                 </div><!-- End to the grid-item-back -->
 
             </div><!-- End to the inner -->
-        </div><!-- End to the grid-item -->
+        </div><!-- End to the grid-item | Repeat this block as many times as needed-->
 
 </div> <!-- End to the color-grid -->
 ```
+
+**The data atributes:**
+
+Data atributes are fun! The `data-time-min` and `data-time-max` must be applied to the animated color grid container with the *color-grid* id and will make the *grid-item* animate at a random number bettween the min and max.
+
+The `data-id` aplied to the *grid-item* div must be an auto incremented umique number, for eample: 0,1,2,3,4,etc
+
+
+###The styling
+
+You can fully custumise this animated grid as you please by creating your own stylings or overighting the default ones on the css file provided, all classes should be kept the same unlless you really know what you doing.
