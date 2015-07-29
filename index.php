@@ -50,13 +50,13 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
 
                 <div class="grid-item-front" style="background-color: #<?php echo $colors[0]; ?>;">
 
-                    <h2>Grid <?php echo $i; ?></h2>
+                    <h2>Grid A<?php echo $i; ?></h2>
 
                 </div>
 
                 <div class="grid-item-back" style="background-color: #<?php echo $colors[1]; ?>;">
 
-                    <h2>Grid <?php echo $i; ?></h2>
+                    <h2>Grid B<?php echo $i; ?></h2>
 
                 </div>
 
