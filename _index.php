@@ -22,14 +22,7 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Animated Color Grid Demo</title>
-
-    <!-- Meta Description tags -->
-
-    <meta name="description" content="Animated Color Grid is a grid that animates at a random time interval, supports text, images and an infinite amount of possibilities. Download now.">
-    <meta name="author" content="Mario Duarte">
-
-    <!-- Styling -->
+    <title>Color Grid</title>
 
     <link rel="stylesheet" href="css/color-grid.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900">
@@ -43,44 +36,44 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
             font-family: 'Lato', sans-serif;
         }
 
-        h1 {
-            font-size: 32px;
-            line-height: 56px;
+        #color-grid {
+            background-color: #000000;
+        }
+
+        .header{
+            padding: 20px 0;
+            width: 100%;
+            height: auto;
+            color: #333333;
             text-align: center;
-            font-weight: 300;
         }
 
-        p {
-            font-size: 16px;
-            line-height: 20px;
+        .header  h1 {font-weight: 300; text-transform: uppercase;}
+
+        .footer {
+            padding: 20px 0;
+            width: 100%;
+            height: auto;
+            color: #333333;
             text-align: center;
-            max-width: 900px;
-            font-weight: 300;
-            margin: 0 auto;
-            padding: 10px 10px 60px 10px;
         }
 
-        a {
-            color: #022033;
-            text-decoration: none;
-        }
+        .footer h3 {font-weight: 300;text-transform: uppercase;padding-top: 20px;}
 
-        a:hover, a:focus {
-            color: #000000;
-            text-decoration: underline;
+        .footer ul {padding: 0;margin: 0 auto; width: 300px}
+        .footer li {
+            float: left;
+            list-style: none;
         }
-
-        .social-nav {margin: 0 auto;padding: 0; max-width: 320px;}
-        .social-nav li {float: left;list-style: none;font-size: 22px; padding: 30px 16px;}
 
     </style>
 
 </head>
 <body>
 
-<h1>Animated Color Grid</h1>
-
-<p>This is a small Jquery plugin that I have created for a <a href="http://www.marioduarte.co" target="_blank">personal project</a>.<br/>This works great with text and/or images and can easily be styled to suit your needs. To download this plugin and documentation <a href="https://github.com/Mario-Duarte/Animated-Color-Grid" target="_blank">click here.</a></p>
+<div class="header">
+    <h1>Animated Color Grid</h1>
+</div>
 
 <div id="color-grid" data-time-min="1" data-time-max="5">
 
@@ -93,13 +86,13 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
 
                 <div class="grid-item-front" style="background-color: #<?php echo $colors[0]; ?>;">
 
-                    <h2>Grid A<?php echo $i; ?></h2>
+                    <h2>Grid <?php echo $i; ?></h2>
 
                 </div>
 
                 <div class="grid-item-back" style="background-color: #<?php echo $colors[1]; ?>;">
 
-                    <h2>Grid B<?php echo $i; ?></h2>
+                    <h2>Grid <?php echo $i; ?></h2>
 
                 </div>
 
@@ -110,14 +103,20 @@ $colors = array('f22613', 'd91e18', '96281b', 'ef4836', 'f1a9a0', '674172', 'aea
 
 </div>
 
-<ul class="social-nav">
-    <li><a href="http://www.mariodesigns.co.uk"><i class="fa fa-home"></i></a></li>
-    <li><a href="https://github.com/Mario-Duarte"><i class="fa fa-github"></i></a></li>
-    <li><a href="https://www.behance.net/mdesignsuk"><i class="fa fa-behance"></i></a></li>
-    <li><a href="https://www.facebook.com/mariodesigns"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com/mdesignsuk"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="https://instagram.com/m.duarte_/"><i class="fa fa-instagram"></i></a></li>
-</ul>
+<div class="footer">
+
+    <h3><a href="http://marioduarte.co" target="_self"><i class="fa fa-arrow-left"></i> Back to Mario Designs</a></h3>
+
+    <ul>
+        <li><i class="fa fa-github"></i></li>
+        <li><i></i></li>
+        <li><i></i></li>
+        <li><i></i></li>
+        <li><i></i></li>
+        <li><i></i></li>
+    </ul>
+
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 <script type="text/javascript" src="js/color-grid.min.js"></script>

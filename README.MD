@@ -23,7 +23,7 @@ Include the color-grid.css and the color-grid.min.js for this grid:
 
 ###The HTML Structure
 
-Bellow is the basic html structure of the grid, for a dynamic working example check the index.php file.
+Bellow is the basic html structure of the grid, for a working example check the index.php file.
 
 ```
 <div id="color-grid" data-time-min="1" data-time-max="5">
@@ -48,3 +48,5 @@ Bellow is the basic html structure of the grid, for a dynamic working example ch
 
 </div> <!-- End to the color-grid -->
 ```
+
+The data attributes:
