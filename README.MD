@@ -2,7 +2,7 @@
 
 Animated color grid is a small plugin that as the name indicates creates an animated grid that that will randamly animate bettween text and/or images.
 
-#####[Live Demo](http://marioduarte.co/animated-color-grid/)
+#####[Live Demo](http://mariodesigns.co.uk/Animated-Color-Grid/)
 
 ###Dependencies
 - [Jquery 2.1.3](https://jquery.com/download/)
