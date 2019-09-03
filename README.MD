@@ -1,13 +1,13 @@
-#Animated Color Grid
+# Animated Color Grid
 
 Animated color grid is a small plugin that as the name indicates creates an animated grid that that will randamly animate bettween text and/or images.
 
-#####[Live Demo](http://mariodesigns.co.uk/Animated-Color-Grid/)
+##### [Live Demo](https://codepen.io/MarioDesigns/pen/XNXPvO)
 
-###Dependencies
+### Dependencies
 - [Jquery 2.1.3](https://jquery.com/download/)
 
-###Getting Started
+### Getting Started
 
 Include the color-grid.css and the color-grid.min.js for this grid:
 
@@ -22,7 +22,7 @@ Include the color-grid.css and the color-grid.min.js for this grid:
 </body>
 ```
 
-###The HTML Structure
+### The HTML Structure
 
 Bellow is the basic html structure of the grid, for a working example check the index.php file.
 
